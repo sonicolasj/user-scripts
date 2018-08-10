@@ -2,10 +2,8 @@
   "name": "user-scripts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build-test": "browserify ./src/testScript/index.ts -p [ tsify ] -p [ browserify-userscript-header --file ./src/testScript/metadata.js ] -o ./scripts/testScript.user.js",
-    "build": "npm run build-test"
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",

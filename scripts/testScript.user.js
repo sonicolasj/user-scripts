@@ -8,7 +8,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var TestScript = /** @class */ (function () {
     function TestScript() {
-        this.changelog = { '1.0': 'Version initale.' };
+        this.changelog = { '1.0': 'Version initiale.' };
     }
     TestScript.prototype.main = function () {
         console.log(42);
